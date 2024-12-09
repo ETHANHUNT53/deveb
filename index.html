@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="overflow-x-hidden">
+  <div class="w-full ">
+    <nav class="fixed flex justify-between items-center top-0 left-0 w-full py-10 px-32 ">
+      <h3 class="tracking-tight">deveb.co</h3>
+      <div class="flex justify-between items-center gap-10 cursor-pointer">
+        <a class="text-sm cursor-pointer" href="#">Home</a>
+        <a class="text-sm cursor-pointer" href="#">About</a>
+        <a class="text-sm cursor-pointer" href="#">Contact</a>
+        <a class="text-sm cursor-pointer" href="#">Services</a>
+      </div>
+    </nav>
+    <div class="landing w-full h-[200vh]">
+      <div class="w-full h-screen sticky top-0 left-0">
+
+          <h1 id="heading" class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 whitespace-nowrap text-8xl font-bold opacity-1 tracking-tighter">Design . Develop . Deploy</h1>
+          <p id="para" class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-2xl text-center tracking-tight leading-loose opacity-0 pointer-events-none">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam ipsum quae provident optio delectus, quia neque consequuntur, vitae iure placeat deleniti magnam, magni nisi quo porro? Id repellendus natus, dolore, earum, tempore assumenda eum quidem eaque itaque accusamus consequatur? Molestiae, non autem!</p>
+        <canvas class="pointer-events-none z-[-1]" id="canvas"></canvas>
+      </div>
+    </div>
+    <div class="w-full h-screen bg-white"></div>
+  </div>
+  <script type="module" src="main.js"></script>
+  
+</body>
+</html>
